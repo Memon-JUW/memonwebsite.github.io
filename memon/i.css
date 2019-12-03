@@ -1,0 +1,55 @@
+body{
+	background-image:url('9.jpg');
+font-family: sans-serif;
+
+}
+
+.s{
+    margin-left: 200px;  
+	width: 320px;
+    height: 900px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.s input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.s input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.s input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.s input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.av{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}

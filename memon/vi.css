@@ -1,0 +1,32 @@
+
+  body{
+  background-image:url('9.jpg');
+font-family: sans-serif;
+  background-repeat: no-repeat;
+}
+
+#O{
+      background-color: rgb(5, 50, 70);
+     }
+     #ho ul li a:hover{
+
+  background-color: rgb(5, 50, 70);
+  color: rgb(243, 245, 192  );
+}
+
+table{
+	border-collapse: collapse;
+	width:100%;
+	font-family:monospace;
+	font-size:25px;
+	color:black;
+	text-align:left;
+}
+th{
+	background-color:#0B4740;
+	color:white;
+}
+
+tr:nth-child(even){
+	background-color:#f2f2f2;
+}
